@@ -1,3 +1,5 @@
+// Code Hoisting
+
 // Function declaration is scanned and made avilable
 
 tipper("5")
