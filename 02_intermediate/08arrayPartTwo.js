@@ -1,4 +1,4 @@
-// Call back and arrow function.
+// Call back and arrow functions.
 
 function isEven(element) {
     // if (element % 2 === 0) {
