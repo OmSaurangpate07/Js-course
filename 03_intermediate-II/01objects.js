@@ -23,6 +23,8 @@ if (hitesh.hasOwnProperty("firstName")) {
 
 var om = new User("Om", 4);
 om.getCourseCount();
-om.getFirstName();
+// om.getFirstName();
 // console.log(om);
-
+if (om.hasOwnProperty("firstName")) {
+    om.getFirstName();
+}
