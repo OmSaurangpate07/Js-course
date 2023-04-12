@@ -15,10 +15,14 @@ User.prototype.getFirstName = function() {
 
 var hitesh = new User("Hitesh", 2);
 hitesh.getCourseCount();
-hitesh.getFirstName();
+// hitesh.getFirstName();
 // console.log(hitesh);
+if (hitesh.hasOwnProperty("firstName")) {
+    hitesh.getFirstName();
+}
 
 var om = new User("Om", 4);
 om.getCourseCount();
 om.getFirstName();
 // console.log(om);
+
