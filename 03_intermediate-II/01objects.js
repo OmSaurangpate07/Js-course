@@ -9,8 +9,16 @@ var User = function(firstName, courseCount){
     };
 };
 
+User.prototype.getFirstName = function() {
+    console.log(`Your first name is: ${this.firstName}`);
+}
+
 var hitesh = new User("Hitesh", 2);
-console.log(hitesh);
+hitesh.getCourseCount();
+hitesh.getFirstName();
+// console.log(hitesh);
 
 var om = new User("Om", 4);
-console.log(om);
+om.getCourseCount();
+om.getFirstName();
+// console.log(om);
