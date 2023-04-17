@@ -12,7 +12,7 @@ var getBGColor = (colorName) => {
 
 var magicColorChanger = (element, color) => {
     return element.addEventListener("click", () => {
-        center.style.background = color'
+        center.style.background = color;
     })
 }
 
